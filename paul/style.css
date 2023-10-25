@@ -1,0 +1,38 @@
+@font-face {
+    font-family: waku;
+    src: url(font/waku/mini-wakuwaku.otf);
+}
+
+
+
+
+
+body {    
+    background-color: rgb(231, 231, 231);
+
+
+
+
+
+}
+
+h1 {
+    color: orangered;
+    text-align: center;
+    stroke: black;
+    font-family: waku;
+
+
+
+
+
+
+
+
+
+    
+
+    
+}
+
+
