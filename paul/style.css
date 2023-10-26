@@ -21,18 +21,50 @@ h1 {
     text-align: center;
     stroke: black;
     font-family: waku;
-
-
-
-
-
-
-
-
-
-    
-
-    
+    text-shadow: -20px 20px 0 #000, 20px -20px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
 }
+
+
+
+p {
+    font-family: waku;
+    color: black;
+    text-align: center;
+
+
+
+
+
+}
+
+
+
+
+
+
+.pumpkin img{
+    position: relative;
+    left: 2070px;
+
+    width: 15%;
+
+
+}
+
+.bat img{
+    position: relative;
+    left: 1960px;
+
+
+
+}
+
+
+
+
+    
+
+    
+
 
 
