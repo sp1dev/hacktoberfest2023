@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+/* macro layout */
+.bg-footer{
+  background-color: #FFFFFF;
+  color: #063970;
+}
+body{
+/*   border: 5px solid red; */
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  background-color: #063970;
+}
+.navbar-brand span{
+  display: inline-block;
+  transform: rotate(35deg);
+  margin: 0 px;
+  font-family: "Rubik Glitch", sans-serif;
+}
+.card-body{
+  background-color: #FFFFFF;
+}
+.carousel-inner{
+  width:250px;
+  height: 100px;
+
+}
+.carousel-item{
+  border: solid brown;
+}
+.btn-primary{
+  background-color: #063970;
+  margin: 10px;
+  border-color: #FFFFFF;
+}
+.card-header{
+  background-color: #063970;
+  color: #FFFFFF;
+  
+}
+
+.poll{
+  max-width: #000000;
+  margin: 25px auto;
+}
+.card-title{
+   font-family: "", sans-serif;
+}
+.navbar-brand{
+  font-family: "Rubik Glitch", sans-serif;
+  color:#FFFFFF;
+  
+}
+.nav-link{
+  color: #FFFFFF;
+}
+.nav-link.active{
+  color: #FFFFFF;
+}
+,nav-link disabled{
+  color: #FFFFFF;
+}
