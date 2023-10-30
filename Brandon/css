@@ -1,0 +1,9 @@
+h1 {
+  color: red;
+  font-size: 72px;
+  transition: 0.3s all ease;
+}
+img {
+  display: block;
+  margin: auto
+}
