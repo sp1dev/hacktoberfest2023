@@ -1,0 +1,18 @@
+# create a list
+bag=[]
+#ask the user for numbers
+num=int(input("Enter a number: "))
+num1=int(input("Enter a number: "))
+num2=int(input("Enter a number: "))
+num3=int(input("Enter a number: "))
+bag.append(num)
+bag.append(num1)
+bag.append(num2)
+bag.append(num3)
+print(bag)
+# use max and aim to get the biggest and smallest number
+max=max(bag)
+min=min(bag)
+# print out the biggest and smallest number
+print("The largest number in your list is: "+str(max))
+print("The smallest number in your list is: "+str(min))
