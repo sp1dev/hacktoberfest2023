@@ -1,0 +1,22 @@
+      <main class="container">
+        <div class="card text-center poll">
+          <div class="card-header">
+            Ice Cream Flavor
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">What is Your Favriote Ice Cream Flavor</h5>
+            <p class="card-text">Out of these options what in your opinion is the best Ice Cream flavor?</p>
+            <button href="#" class="btn btn-primary" style="margin-top: 5px;margin-bottom: 5px;">Chocolate</button>
+            <button href="#" class="btn btn-primary" style="margin-top: 5px;margin-bottom: 5px;">Vanilla</button>
+            <button href="#" class="btn btn-primary" style="margin-top: 5px;margin-bottom: 5px;">Strawberry</button>
+            <button href="#" class="btn btn-primary" style="margin-top: 5px;margin-bottom: 5px;">Mint Chip</button>
+         </div>
+          <div class="card-footer text-body-secondary">
+              Poll Made on: 10/16/23
+            <nav aria-label="Page navigation example">
+              <a href=" " class="previous" style="margin-left: 5px;margin-right: 5px;">«</a>
+              <a href=" " class="next" style="margin-left: 5px;margin-right: 5px;"> »</a>
+            </nav>
+          </div>
+        </div>
+      </main>
