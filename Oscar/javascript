@@ -1,0 +1,19 @@
+let data = [];
+  
+function getPoke () {
+  let endpoint = "https://pokeapi.co/api/v2/pokemon/25/";
+
+    fetch(endpoint)
+      .then((response) => response.json())
+      .then((pokemon) => data.push(pokemon));
+  }
+
+function render() {
+ let name = data[0].name;
+  let img = data[0].sprites.other["official-artwork"].front_default;
+  
+  document.querySelector("main").innerHTML = `<section>
+                     <h2>${name}</h2>
+                     <mg src="${img}" alt="${name}">
+                    </section>`;
+}
