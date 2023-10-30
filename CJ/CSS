@@ -1,0 +1,7 @@
+body {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #9333ff;
+  padding: 0 30px 30px 30px;
+  border: 9px solid white;
+}
