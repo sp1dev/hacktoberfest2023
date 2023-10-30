@@ -46,4 +46,35 @@ h1{
   }
   .valid{
     color:green;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    background-image:url(https://marketplace.canva.com/EAFO06cjym0/1/0/900w/canva-blue-gradation-smoke-phone-wallpaper-2oSMDkYcEf4.jpg);
+    background-size: cover;
+    background-attachment:fixed;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-brand span {
+    display: inline-block;
+    transform: rotate(45deg);
+    margin:0 5px;
+  }
+  
+  main {
+    text-align: center;
+    font-size: 18px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .poll{
+    max-width:600px;
+    margin: 20px auto;
+  }
+  footer{
+    width: 100%;
+    text-align: auto;
+    font-size: 18px;
   }
